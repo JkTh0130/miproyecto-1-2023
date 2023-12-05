@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/contacto.css">
     <title>Document</title>
 </head>
 <body>
@@ -26,27 +27,28 @@
     </div>
     <!--Aqui colocamos el cuerpo del index-->
     <div id="cuerpoContenido">
-        <div ud="CuerpoImagen"> 
-            <div id="BordeImagen">
-            <img src="/img/Recurso 1.png" haight="480" width="480">
-            </div>
-        </div>
-        <div id="CuerpoDetalle"><h1>Bienvenido</h1>
-        <div id="DatosDetalle">
-            <p>¡Bienvenido a bordo! Estamos emocionados de que estés aquí, y esperamos trabajar contigo. Sabemos que con tus habilidades y experiencia eres un gran activo para nuestro departamento. Si tienes alguna pregunta durante la primera semana, comunícate conmigo en cualquier momento</p>
-        </div>
-        <div id="Botones">
-            <div id="Botonfavorito">
-                <div id="marcofavorito" class="disenoBoton">
-                Mi persona favorita
-                </div>
-            </div>
-            <div id="BotonUbicacion">
-                <div id="marcoubicacion" class="disenoBoton">
-                Mi ubicación
-                </div>
-            </div>
-    </div>
+        <div id="formularioDatos">
+            <fieldset>
+                <legend>Mis Datos</legend>
+                <form>
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Ingrese Su Nombre">
+                    <label>Apellido</label>
+                    <input type="text" placeholder="Ingrese Su Apellido">
+                    <label>Edad</label>
+                    <input type="number" placeholder="Ingrese Su Edad">
+                    <select>
+                        <option value="cbba">Cochabamba</option>
+                        <option value="lp">La Paz</option>
+                        <option value="oruro">Oruro</option>
+                        <option value="bn">Beni</option>
+                        <option value="pando">Pando</option>
+                    </select>
+                    <label>Descripción</label>
+                    <textarea></textarea>
+                    <input type="button" value="INSERTAR">
+                </form>
+            </fieldset>
         </div>
     </div>
     <!--Aqui colocaremos el pie de la web-->
